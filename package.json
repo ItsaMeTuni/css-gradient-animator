@@ -1,0 +1,18 @@
+{
+  "name": "gradient-animator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gradientAnimator.js",
+  "scripts": {
+    "test": "node ./gradientAnimator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color-interpolate": "^1.0.5",
+    "fixed-width-float": "^1.0.0",
+    "lerp": "^1.0.3",
+    "rgb-hex": "^3.0.0",
+    "scale-number-range": "^1.0.3"
+  }
+}
