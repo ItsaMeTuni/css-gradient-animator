@@ -1,12 +1,12 @@
-# Gradient Animator
+# CSS Gradient Animator
 
 This small JS library creates a CSS animation that interpolates between gradients.
 
-[Demo](https://itsametuni.github.io/gradient-animator)
+[Demo](https://itsametuni.github.io/css-gradient-animator)
 
 ## Quick start
 ```
-npm install gradient-animator
+npm install css-gradient-animator
 
 npx gradient-animator --name anim --gradients 0% "linear-gradient(0deg, #ffffff 0%, #000000 100%)" 100% "linear-gradient(90deg, #000000 0%, #ffffff 100%)"
 ```
