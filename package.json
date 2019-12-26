@@ -4,7 +4,7 @@
   "description": "",
   "main": "gradientAnimator.js",
   "scripts": {
-    "test": "node ./gradientAnimator.js"
+    "serve-test-page": "cd ./testPage && npx browser-sync start --server --files \"*.*\""
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,9 @@
     "lerp": "^1.0.3",
     "rgb-hex": "^3.0.0",
     "scale-number-range": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.0",
+    "browser-sync": "^2.26.7"
   }
 }
