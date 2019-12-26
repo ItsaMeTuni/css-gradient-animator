@@ -1,6 +1,8 @@
 # Gradient Animator
 
-This small JS library creates a CSS animation that interpolates between gradients. For example:
+This small JS library creates a CSS animation that interpolates between gradients.
+
+[Demo](https://itsametuni.github.io/gradient-animator)
 
 ## Quick start
 ```
