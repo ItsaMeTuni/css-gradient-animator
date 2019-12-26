@@ -4,7 +4,7 @@
   "description": "",
   "main": "gradientAnimator.js",
   "scripts": {
-    "serve-page": "cd ./githubPages && npx browser-sync start --server --files \"*.*\""
+    "serve-page": "cd ./docs && npx browser-sync start --server --files \"*.*\""
   },
   "author": "",
   "license": "ISC",
