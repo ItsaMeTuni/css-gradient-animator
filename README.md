@@ -6,10 +6,16 @@ This small JS library creates a CSS animation that interpolates between gradient
 
 ## Quick start
 ```
-npm install css-gradient-animator
+git clone https://github.com/ItsaMeTuni/css-gradient-animator.git
 
-npx gradient-animator --name anim --gradients 0% "linear-gradient(0deg, #ffffff 0%, #000000 100%)" 100% "linear-gradient(90deg, #000000 0%, #ffffff 100%)"
+cd css-gradient-animator/
+
+npm install
+
+node ./gradientAnimator.js --name anim --gradients 0% "linear-gradient(0deg, #ffffff 0%, #000000 100%)" 100% "linear-gradient(90deg, #000000 0%, #ffffff 100%)"
 ```
+
+(I intend to turn this into an executable npm module later, I just couldn't be bothered to do it yet)
 
 And in your CSS file
 ```
